@@ -1,0 +1,158 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  grid-template-rows: 100%;
+}
+img {
+  border-radius: 50%;
+  width: 200px;
+  text-align: center;
+  margin: 30px;
+  border: 4px solid rgba(158, 139, 85, 0.3);
+}
+
+#left-side {
+  background-color: #cddc39;
+}
+#picture {
+  text-align: center;
+  margin: 20px;
+}
+.text {
+  line-height: 0.3em;
+  color: #3a433e;
+}
+.left {
+  padding: 25px;
+  display: block;
+  margin: 10px;
+}
+#resume {
+  padding-bottom: 400px;
+  color: #3a433e;
+}
+.left-title {
+  text-align: center;
+  background-color: #3a433e;
+  padding: 8px;
+  color: #cddc39;
+  font-size: 25px;
+  font-weight: 500;
+}
+.left-icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 50px;
+  font-size: 3.3em;
+  color: #3a433e;
+}
+#right-side {
+  background-color: #ffffff;
+}
+
+.right {
+  padding: 50px 50px 35px 50px;
+}
+.right-subtitle {
+  padding: 0px 50px 35px 50px;
+}
+.right-title {
+  padding: 0px;
+  font-size: 25px;
+  font-weight: 500;
+}
+#name {
+  font-size: 65px;
+  font-weight: 100;
+  line-height: 0.5em;
+  padding: 40px 20px 20px 20px;
+}
+#nameInYellow {
+  color: #cddc39;
+}
+#allName {
+  margin: 15px auto;
+}
+#underline,
+#not-underline {
+  color: #3a433e;
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+#underline {
+  padding-bottom: 1px;
+  border-bottom: 3px solid #cddc39;
+  line-height: 48px;
+}
+.small-line {
+  width: 30%;
+  float: left;
+  margin-top: 0px;
+}
+.line {
+  border: 1px solid #cddc39;
+}
+.float-right {
+  color: #3a433e;
+}
+.fa-dot-circle {
+  float: left;
+  padding: 0px 10px;
+}
+.fa-circle {
+  float: left;
+  padding: 0px 10px;
+}
+.side {
+  padding-left: 35px;
+}
+.block-one {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 200px 200px;
+  grid-gap: 5px;
+}
+.small-left-side-one,
+.small-left-side-two,
+.small-left-side-three,
+.small-left-side-four,
+.small-left-side-five,
+.small-left-side-six {
+  background-color: white;
+}
+.block-two {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 200px 200px 200px;
+  grid-gap: 5px;
+}
+.equal-blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 100px;
+  grid-gap: 5px;
+}
+.equal-block-one,
+.equal-block-two,
+.equal-block-three,
+.equal-block-four {
+  background-color: white;
+}
+.fa-graduation-cap,
+.fa-briefcase,
+.fa-pencil-alt {
+  color: #cddc39;
+  font-size: 1.5em;
+  padding: 0px 30px 5px 10px;
+}
+.fa-dot-circle,
+.fa-circle {
+  color: #cddc39;
+}
