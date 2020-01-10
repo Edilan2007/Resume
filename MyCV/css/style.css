@@ -76,8 +76,12 @@ img {
 #nameInYellow {
   color: #cddc39;
 }
+
+/*________________________Changed by William*/
 #allName {
   margin: 15px auto;
+  background-color:orange;
+  width:800px;
 }
 #underline,
 #not-underline {
